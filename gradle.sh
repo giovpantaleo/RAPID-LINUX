@@ -12,6 +12,7 @@ echo 'export PATH=${GRADLE_HOME}/bin:${PATH}' >> /etc/profile.d/gradle.sh
 source /etc/profile.d/gradle.sh
 mkdir /home/MECPerf
 cd /home/MECPerf
-git clone https://github.com/giovpantaleo/MECPerf.git
+#git clone https://github.com/giovpantaleo/MECPerf.git
+git clone -b development https://github.com/giovpantaleo/MECPerf.git
 mv MECPerf/ MECPerf-master/
 
