@@ -18,7 +18,7 @@ def get_ue_info():
     URL="http://127.0.0.1:9999/stats/"
     r = requests.get(url = URL)
     data = r.json()
-    time.sleep(0.0005)
+    time.sleep(0.1)
     return data
     
 async def send():
