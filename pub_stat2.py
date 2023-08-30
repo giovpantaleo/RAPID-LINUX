@@ -30,7 +30,7 @@ async def send():
 
         while 1:
             obj = get_ue_info()
-            file.write(obj+'\n')
+            file.write(str(obj)+'\n')
         
             
 asyncio.get_event_loop().run_until_complete(send())
