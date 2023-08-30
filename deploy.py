@@ -557,7 +557,7 @@ def main():
                         help='Commercial phones to use; use -p 0 to choose no phone')
     parser.add_argument("-Q", "--quectel-id", dest='quectel_nodes',
                         default=default_quectel_nodes,
-                        choices=["32",],
+                        choices=["32","31","34"],
                         action=ListOfChoices,
 			help="specify as many node ids with Quectel UEs as you want")
 
